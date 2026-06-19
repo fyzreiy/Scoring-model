@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data (большие файлы)
+*.parquet
+*.csv
+*.npz
+data/
+artifacts/
+
+# Colab
+/content/
+/drive/
+
+# OS
+.DS_Store
+Thumbs.db
