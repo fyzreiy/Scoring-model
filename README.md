@@ -15,25 +15,34 @@
 
 Все решение для удобства находится в файле Credit_Scoring(5).ipynb
 
-**EDA**
+## EDA
 
+**Распределение продуктов**
 
-<img width="700" height="400" alt="newplot (2)" src="https://github.com/user-attachments/assets/b4057e58-4709-4235-bc1f-fb8fb253d43f" />
-<img width="900" height="400" alt="newplot (3)" src="https://github.com/user-attachments/assets/f281ce0e-cf69-4191-b9f0-5cc3ef8c239c" />
-<img width="1337" height="525" alt="newplot (4)" src="https://github.com/user-attachments/assets/517b36e6-f741-4034-9029-2ef858adad00" />
-
+<img src="https://github.com/user-attachments/assets/b4057e58-4709-4235-bc1f-fb8fb253d43f" width="700" />
 
 Распределение числа кредитных продуктов на клиента не соответствует нормальному. На boxplot заметны выбросы (клиенты с более чем 24 продуктами), а среднее значение превышает медиану, что указывает на правостороннюю асимметрию — это хорошо видно на графике плотности распределения.
 
+---
 
+**Boxplot сравнения дефолтных и недефолтных клиентов**
 
-<img width="800" height="500" alt="newplot (5)" src="https://github.com/user-attachments/assets/43537bc0-904f-47e0-b2c3-7d48739a6ed0" />
+<img src="https://github.com/user-attachments/assets/f281ce0e-cf69-4191-b9f0-5cc3ef8c239c" width="700" />
 
+Текст под второй картинкой.
 
-Классы очень несбалансированы
+---
 
+**Круговая диаграмма дисбаланса классов**
 
-<img width="700" height="700" alt="newplot (6)" src="https://github.com/user-attachments/assets/cc1cbf2d-ea10-4bf7-bece-901685416b76" />
+<img src="https://github.com/user-attachments/assets/517b36e6-f741-4034-9029-2ef858adad00" width="700" />
 
+Классы очень несбалансированы.
+
+---
+
+**Корреляционная матрица**
+
+<img src="https://github.com/user-attachments/assets/cc1cbf2d-ea10-4bf7-bece-901685416b76" width="700" />
 
 Учитывая низкую линейную корреляцию с целевым флагом, стоит использовать градиентный бустинг, который хорошо раскрывает нелинейные зависимости и взаимодействия.
