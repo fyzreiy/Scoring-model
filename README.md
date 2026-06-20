@@ -20,6 +20,7 @@
 
 ## EDA
 
+
 **Распределение продуктов**
 
 <img src="https://github.com/user-attachments/assets/b4057e58-4709-4235-bc1f-fb8fb253d43f" width="700" />
